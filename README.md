@@ -37,23 +37,14 @@ Creación de gráficos con Matplotlib/Seaborn/Plotly, análisis comparativo de m
 
 proyecto-properati-ucb2025/
 │
-├── data/
-│   ├── raw/                # Dataset original (Properati)
-│   └── processed/          # Dataset limpio y transformado
-│
-├── notebooks/
-│   ├── 1_preprocesamiento.ipynb    # Limpieza y exploración de datos
-│   ├── 2_modelado.ipynb            # Entrenamiento y evaluación de modelos
-│   ├── 3_visualizacion.ipynb       # Gráficos y análisis de resultados
-│
-├── src/
-│   ├── database.py         # Conexión y carga a la base de datos
-│   ├── utils.py            # Funciones auxiliares
-│
-├── properati.db            # Base de datos SQLite con los resultados
-├── requirements.txt        # Librerías y dependencias
-├── README.md               # Documentación principal
-└── presentacion_final.pdf  # Presentación final del proyecto
+│   ├── preprocesamiento.ipynb    # Limpieza y exploración de datos
+│   ├── entrenamiento_lineal.ipynb        # Entrenamiento y evaluación de modelo lineal
+│   ├── entrenamiento_rforest.ipynb       # Entrenamiento y evaluación de modelo random forest
+│	├── entrenamientos.ipynb       # Entrenamiento y evaluación de ambos modelos
+│	├── resultados_lineal.csv y resultados_rforest.csv    # Resultado del entrenamiento y evaluación de ambos modelos
+│	├── metricas_entrenamiento.csv    # Métricas del resultado del entrenamiento y evaluación de ambos modelos
+│	├── db_data_loading    # Configuracion y carga de datos en la database
+│	├── db_properati.db       # Base de datos resultante para análisis visual de los resultados
 
 ```
 
