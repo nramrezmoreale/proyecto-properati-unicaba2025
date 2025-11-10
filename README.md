@@ -73,6 +73,10 @@ proyecto-properati-ucb2025/
 Dataset original: Properati Argentina (Kaggle)
 https://www.kaggle.com/datasets/alejandroczernikier/properati-argentina-dataset
 
+1) Ingresar al link
+2) Descargar el dataset y guardarlo como entrenamiento.csv
+3) Al ejecutar preprocesamiento.ipynb subirlo al repositorio.
+
 ⸻
 
 🚀 ENTREGA FINAL
